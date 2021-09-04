@@ -6,7 +6,7 @@ void setup() {  // setup() runs once
 }
  
 void draw() {  // draw() loops forever, until stopped
-  background(204);
+  background(150);
   yPos = yPos - 1.0;
   if (yPos < 0) {
     yPos = height;
